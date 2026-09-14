@@ -13,7 +13,7 @@ app.post('/api/get_qr', (req, res) => {
     upi_id: "s.maddheshia@ptaxis", // <-- APNA UPI ID YAHAN LIKH
     amount: "10",
     name: "OneClick Vault",
-    qr_url: "https://api.qrserver.com/v1/create-qr-code/?data=upi://pay?pa=TERA-UPI-YAHAN-DAAL@oksbi&pn=OneClick&am=10&cu=INR"
+    qr_url: "https://api.qrserver.com/v1/create-qr-code/?data=upi://pay?pa=s.maddheshia@ptaxis&pn=OneClick&am=10&cu=INR"
   });
 });
 
